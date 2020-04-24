@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anti-float {
+    display: flow-root;
+}
+
+html {
+    background-color: rgb(26, 26, 26);
+    color: rgb(229, 229, 229);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row { margin: 0 auto; }
+
+h1, h2, h3 {
+    color: rgb(65, 189, 82);
+}
+
+h2 {
+    text-align: center;
+}
+
+/* header stylings */
+
+.corner-logo {
+    font-size: 60px;
+    
+
+}
+
+.corner-logo:link,
+.corner-logo:visited {
+    color: rgb(65, 189, 82);
+}
+
+.corner-logo:hover,
+.corner-logo:active {
+    color: rgb(50, 163, 65);
+    transition: .3s;
+}
+
+header {
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    background-attachment: fixed;
+}
+
+nav {
+    /* float: right; */
+    font-size: 28px;
+    color: rgb(229, 229, 229);
+    padding-top: 30px;
+}
+
+nav li {
+    float: left;
+    padding: 0 20px;
+}
+
+nav ul { list-style: none; }
+
+.nav-link:link,
+.nav-link:visited {
+    text-decoration: none;
+    color: rgb(65, 189, 82);
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: rgb(50, 163, 65);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
+    padding: 40px 20px 0 30px;
+
+}
+
+.call-to-action {
+    text-align: center;
+    margin: 120px 0 40px;
+}
+
+.title-caption {
+    margin-top: 20px;
+    margin-bottom: 50px ;
+}
+
+.sign-up-btn {
+    padding: 15px 40px;
+    border-style: none;
+}
+
+.btn {
+    border-radius: 10px;
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.sign-up-btn:link,
+.sign-up-btn:visited {
+    background-color:rgb(65, 189, 82) ;
+}
+
+.sign-up-btn:hover,
+.sign-up-btn:active {
+    background-color: rgb(50, 163, 65);
+    transition: .3s;
+}
+
+.title {
+    font-size: 80px;
+    color: rgb(65, 189, 82);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* rhetorical questions styling */
+
+.question-section {
+    background-color: rgb(36, 36, 36);
+    padding: 60px 30px;
+}
+
+.question-title {
+    padding-bottom: 10px;
+    font-size: 32px;
+    width: 50%;
+    margin: 0 25%;
+}
+
+#last-question {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.question-img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.question-1 { margin-bottom: 40px;}
+
+.question-caption-1 {
+    margin: 40px 15% 0;
+    letter-spacing: 1.5px;
+    line-height: 140%;
+    width: 70%;
+}
+
+.question-caption-2 {
+    margin: 40px 10% 0;
+    letter-spacing: 1.5px;
+    line-height: 140%;
+    width: 80%;
+}
+
+/* testimonial time */
+
+.testimonials {
+    padding: 60px 20px;
+}
+
+.testimonial-title {
+    font-size: 32px;
+}
+
+/* packages and plans */
+
+.plans-section {
+    padding: 60px 20px;
+    background-color: rgb(36, 36, 36);
+}
+
+.plans-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.plan-heading {
+    padding: 10px 10px 5px;
+}
+
+.features-ultra {
+    background-color: rgb(65, 189, 82);
+    color: rgb(26, 26, 26);
+}
+
+.features-super {
+    color: rgb(50, 163, 65);
+    background-color: rgb(42, 42, 42);
+}
+
+.plan-features {
+    list-style: none;
+    padding: 10px 10px 5px;
+    line-height: 160%;
+}
+
+.plan-features .fas {
+    padding: 0 10px 0 5px;
+}
+
+.stacking-btn {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.stacking-btn-ultra {
+    background-color: rgb(50, 163, 65);
+}
+
+.stacking-btn-super {
+    background-color: rgb(36, 36, 36);
+}
+
+.ultra-stacking { padding: 10px 30px; }
+
+.ultra-stacking:link,
+.ultra-stacking:visited {
+    border: 1px rgb(26, 26, 26) solid;
+    color: rgb(26, 26, 26);
+    background-color: rgb(50, 163, 65);
+}
+
+.ultra-stacking:active,
+.ultra-stacking:hover {
+    border: 1px rgb(26, 26, 26) solid;
+    color: rgb(50, 163, 65);
+    background-color: rgb(26, 26, 26);
+    transition: .3s;
+}
+
+.super-stacking { padding:10px 30px; }
+
+.super-stacking:link,
+.super-stacking:visited {
+    border: 1px rgb(50, 163, 65) solid;
+    color: rgb(50, 163, 65);
+    background-color: rgb(36, 36, 36);
+}
+
+.super-stacking:active,
+.super-stacking:hover {
+    border: 1px rgb(50, 163, 65) solid;
+    color: rgb(36, 36, 36);
+    background-color:rgb(50, 163, 65) ;
+    transition: .3s;
+}
+
+#heading-ultra {
+    background-color: rgb(50, 163, 65);
+    color: rgb(26, 26, 26);
+}
+
+#heading-ultra h3 {
+    color:rgb(26, 26, 26);
+    text-align: center;
+}
+
+#heading-super {
+    background-color: rgb(36, 36, 36);
+    color: rgb(65, 189, 82);
+}
+
+#heading-super h3 { text-align: center; }
+
+.plan-box-ultra {
+    margin-left: 40%;
+    margin-right: 10%;
+    width: 50%;
+}
+
+.plan-box-super {
+    margin-left: 10%;
+    margin-right: 39%;
+    width: 51%;
+    border: 1px solid rgb(65, 189, 82);
+}
+
+/* contact form section */
+
+.contact-section {
+    background-color: rgb(56, 56, 56);
+    width: 100vw;
+}
+
+.contact-form {
+    width: 100%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
