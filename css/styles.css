@@ -29,23 +29,6 @@ h2 {
 
 /* header stylings */
 
-.corner-logo {
-    font-size: 60px;
-    
-
-}
-
-.corner-logo:link,
-.corner-logo:visited {
-    color: rgb(65, 189, 82);
-}
-
-.corner-logo:hover,
-.corner-logo:active {
-    color: rgb(50, 163, 65);
-    transition: .3s;
-}
-
 header {
     height: 100vh;
     background-color: rgb(26, 26, 26);
@@ -53,10 +36,9 @@ header {
 }
 
 nav {
-    /* float: right; */
+    float: right;
     font-size: 28px;
     color: rgb(229, 229, 229);
-    padding-top: 30px;
 }
 
 nav li {
@@ -79,15 +61,8 @@ nav ul { list-style: none; }
     transition: .3s;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
 .navbar {
-    padding: 40px 20px 0 30px;
+    padding: 20px 20px 0 30px;
 
 }
 
@@ -128,7 +103,7 @@ nav ul { list-style: none; }
     font-size: 80px;
     color: rgb(65, 189, 82);
     padding-bottom: 0;
-    margin-bottom: 0;
+    padding-top: 20px;
 }
 
 /* rhetorical questions styling */
@@ -143,11 +118,13 @@ nav ul { list-style: none; }
     font-size: 32px;
     width: 50%;
     margin: 0 25%;
+    margin-top: 5%;
 }
 
 #last-question {
     width: 50%;
     margin: 0 25%;
+    margin-top: 10%;
 }
 
 .question-img {
@@ -159,14 +136,14 @@ nav ul { list-style: none; }
 .question-1 { margin-bottom: 40px;}
 
 .question-caption-1 {
-    margin: 40px 15% 0;
+    margin: 30px 10% 0;
     letter-spacing: 1.5px;
     line-height: 140%;
-    width: 70%;
+    width: 75%;
 }
 
 .question-caption-2 {
-    margin: 40px 10% 0;
+    margin: 30px 10% 0;
     letter-spacing: 1.5px;
     line-height: 140%;
     width: 80%;
@@ -300,10 +277,17 @@ nav ul { list-style: none; }
 .contact-section {
     background-color: rgb(56, 56, 56);
     width: 100vw;
+    padding: 20px 0;
+}
+
+.contact-title {
+    font-size: 32px;
+    margin-bottom: 40px;
 }
 
 .contact-form {
-    width: 100%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 70%;
+    margin: 10px 0 0 30%;
 }
+
+.contact-padding { margin: 15px 0; }
