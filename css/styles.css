@@ -41,6 +41,30 @@ nav {
     color: rgb(229, 229, 229);
 }
 
+/* for the sticky nav */
+
+.sticky {
+    background-color: rgba(26, 26, 26, 0.957);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    float: right;
+}
+
+.sticky .nav-link:link,
+.sticky .nav-link:visited {
+    text-decoration: none;
+    color: rgb(65, 189, 82);
+}
+
+.sticky .nav-link:hover,
+.sticky .nav-link:active {
+    color: rgb(36, 133, 49);
+    text-decoration: none;
+    transition: .3s;
+}
+
 nav li {
     float: left;
     padding: 0 20px;
@@ -56,7 +80,7 @@ nav ul { list-style: none; }
 
 .nav-link:hover,
 .nav-link:active {
-    color: rgb(50, 163, 65);
+    color: rgb(36, 133, 49);
     text-decoration: none;
     transition: .3s;
 }
@@ -95,7 +119,7 @@ nav ul { list-style: none; }
 
 .sign-up-btn:hover,
 .sign-up-btn:active {
-    background-color: rgb(50, 163, 65);
+    background-color: rgb(36, 133, 49);
     transition: .3s;
 }
 
