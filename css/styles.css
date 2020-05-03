@@ -43,34 +43,10 @@ nav {
 
 /* for the sticky nav */
 
-.sticky {
+nav {
     background-color: rgba(26, 26, 26, 0.957);
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    float: right;
 }
-
-.sticky .nav-link:link,
-.sticky .nav-link:visited {
-    text-decoration: none;
-    color: rgb(65, 189, 82);
-}
-
-.sticky .nav-link:hover,
-.sticky .nav-link:active {
-    color: rgb(36, 133, 49);
-    text-decoration: none;
-    transition: .3s;
-}
-
-nav li {
-    float: left;
-    padding: 0 20px;
-}
-
-nav ul { list-style: none; }
 
 .nav-link:link,
 .nav-link:visited {
@@ -85,9 +61,60 @@ nav ul { list-style: none; }
     transition: .3s;
 }
 
-.navbar {
-    padding: 20px 20px 0 30px;
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
+.sticky .nav-link:link,
+.sticky .nav-link:visited {
+    text-decoration: none;
+    color: rgb(65, 189, 82);
+    display: inline;
+    padding: 0 20px;
+}
+
+.sticky .nav-link:hover,
+.sticky .nav-link:active {
+    color: rgb(36, 133, 49);
+    text-decoration: none;
+    transition: .3s;
+    display: inline;
+    padding: 0 20px;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+}
+
+nav div {
+    margin-top: 10px ;
+}
+
+.main-nav li:link,
+.main-nav li:visited {
+    text-decoration: none;
+    color: rgb(65, 189, 82);
+}
+
+.main-nav li:hover,
+.main-nav li:active {
+    color: rgb(36, 133, 49);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.fa-dollar-sign {
+    float: left;
+    font-size: 32px;
+    color: rgb(65, 189, 82);
 }
 
 .call-to-action {
